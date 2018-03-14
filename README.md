@@ -187,6 +187,7 @@
     }
 ```
 将配置好的AVMutableComposition环境添加到导出类
+
 ```
 //    导出素材
     AVAssetExportSession *exporter = [[AVAssetExportSession alloc]initWithAsset:composition presetName:AVAssetExportPresetMediumQuality];
