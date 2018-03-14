@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AC1D5502042EFF8004ED59C /* FinishShowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1D54F2042EFF8004ED59C /* FinishShowController.swift */; };
+		1AEA406A20426FC400CDAE84 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1AEA406920426FC400CDAE84 /* music.mp3 */; };
+		1AEB504920342B690062D83D /* shoutVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1AEB504820342B680062D83D /* shoutVideo.mp4 */; };
+		1AEB504B2039AAB20062D83D /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB504A2039AAB20062D83D /* EditViewController.swift */; };
+		1AEB504D203C1C4E0062D83D /* EditAudioVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB504C203C1C4E0062D83D /* EditAudioVideo.swift */; };
 		1AF7A19E202FD03200D05489 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7A19D202FD03200D05489 /* AppDelegate.swift */; };
-		1AF7A1A0202FD03200D05489 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7A19F202FD03200D05489 /* ViewController.swift */; };
 		1AF7A1A3202FD03200D05489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF7A1A1202FD03200D05489 /* Main.storyboard */; };
 		1AF7A1A5202FD03200D05489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF7A1A4202FD03200D05489 /* Assets.xcassets */; };
 		1AF7A1A8202FD03200D05489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF7A1A6202FD03200D05489 /* LaunchScreen.storyboard */; };
+		1AF7A1B0202FD0A800D05489 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7A1AF202FD0A800D05489 /* ViewController.swift */; };
+		1AF7A1B2202FD17900D05489 /* RecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7A1B1202FD17900D05489 /* RecordController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AC1D54F2042EFF8004ED59C /* FinishShowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishShowController.swift; sourceTree = "<group>"; };
+		1AEA406920426FC400CDAE84 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		1AEB504820342B680062D83D /* shoutVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shoutVideo.mp4; sourceTree = "<group>"; };
+		1AEB504A2039AAB20062D83D /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		1AEB504C203C1C4E0062D83D /* EditAudioVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAudioVideo.swift; sourceTree = "<group>"; };
 		1AF7A19A202FD03200D05489 /* DSWReccord-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DSWReccord-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF7A19D202FD03200D05489 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1AF7A19F202FD03200D05489 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1AF7A1A2202FD03200D05489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AF7A1A4202FD03200D05489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AF7A1A7202FD03200D05489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AF7A1A9202FD03200D05489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF7A1AF202FD0A800D05489 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AF7A1B1202FD17900D05489 /* RecordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				1AF7A19D202FD03200D05489 /* AppDelegate.swift */,
-				1AF7A19F202FD03200D05489 /* ViewController.swift */,
+				1AF7A1AF202FD0A800D05489 /* ViewController.swift */,
+				1AF7A1B1202FD17900D05489 /* RecordController.swift */,
+				1AEB504A2039AAB20062D83D /* EditViewController.swift */,
+				1AC1D54F2042EFF8004ED59C /* FinishShowController.swift */,
+				1AEB504C203C1C4E0062D83D /* EditAudioVideo.swift */,
 				1AF7A1A1202FD03200D05489 /* Main.storyboard */,
 				1AF7A1A4202FD03200D05489 /* Assets.xcassets */,
 				1AF7A1A6202FD03200D05489 /* LaunchScreen.storyboard */,
 				1AF7A1A9202FD03200D05489 /* Info.plist */,
+				1AEB504820342B680062D83D /* shoutVideo.mp4 */,
+				1AEA406920426FC400CDAE84 /* music.mp3 */,
 			);
 			path = "DSWReccord-swift";
 			sourceTree = "<group>";
@@ -123,6 +141,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEA406A20426FC400CDAE84 /* music.mp3 in Resources */,
+				1AEB504920342B690062D83D /* shoutVideo.mp4 in Resources */,
 				1AF7A1A8202FD03200D05489 /* LaunchScreen.storyboard in Resources */,
 				1AF7A1A5202FD03200D05489 /* Assets.xcassets in Resources */,
 				1AF7A1A3202FD03200D05489 /* Main.storyboard in Resources */,
@@ -136,7 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF7A1A0202FD03200D05489 /* ViewController.swift in Sources */,
+				1AEB504B2039AAB20062D83D /* EditViewController.swift in Sources */,
+				1AF7A1B2202FD17900D05489 /* RecordController.swift in Sources */,
+				1AF7A1B0202FD0A800D05489 /* ViewController.swift in Sources */,
+				1AC1D5502042EFF8004ED59C /* FinishShowController.swift in Sources */,
+				1AEB504D203C1C4E0062D83D /* EditAudioVideo.swift in Sources */,
 				1AF7A19E202FD03200D05489 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MERLMH2286;
 				INFOPLIST_FILE = "DSWReccord-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.dj.DSWReccord-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MERLMH2286;
 				INFOPLIST_FILE = "DSWReccord-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.dj.DSWReccord-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
