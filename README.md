@@ -217,6 +217,7 @@
 拿到视频、音频资源路径，取到设置的音视频对应音量，进行合成
 完整合成代码如下
 ```
+```
 /**
  音视频合成
 
@@ -282,8 +283,8 @@
                 completionHandle(outputPath,NO);
             } break;
         }
-    }];
-
+    }];
+```
 
 GitHub代码下载[https://github.com/D-james/AudioVideoEdit](https://github.com/D-james/AudioVideoEdit)，文件比较大，因为把要合成的音频、视频也传上去了。
 swift版[https://github.com/D-james/EditAudioVideo-swift](https://github.com/D-james/EditAudioVideo-swift)
