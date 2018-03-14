@@ -193,6 +193,7 @@
 ```
 这里有一个坑，AVMutableCompositionTrack轨道中控制音量preferredVolume属性不起作用，不知道为什么，知道的大神指正下。
 所以只能用音频混合调节音量
+
 ```
 #pragma mark - 调节合成的音量
 + (AVAudioMix *)buildAudioMixWithVideoTrack:(AVCompositionTrack *)videoTrack VideoVolume:(float)videoVolume BGMTrack:(AVCompositionTrack *)BGMTrack BGMVolume:(float)BGMVolume controlVolumeRange:(CMTime)volumeRange {
@@ -216,7 +217,7 @@
 ```
 拿到视频、音频资源路径，取到设置的音视频对应音量，进行合成
 完整合成代码如下
-```
+
 ```
 /**
  音视频合成
